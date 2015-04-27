@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		185B02051AE0B42C0017615B /* book2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 185B02041AE0B42C0017615B /* book2.jpg */; };
+		18729C681AE8AA520010F99D /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 18729C671AE8AA520010F99D /* UIImage+ImageEffects.m */; };
 		18D479301AA9E08B007DBDE7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D4792F1AA9E08B007DBDE7 /* main.m */; };
 		18D479331AA9E08B007DBDE7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D479321AA9E08B007DBDE7 /* AppDelegate.m */; };
 		18D479361AA9E08B007DBDE7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D479351AA9E08B007DBDE7 /* ViewController.m */; };
@@ -59,6 +61,16 @@
 		18DF8BA71AC3F4B60065B046 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DF8B9D1AC3F4B60065B046 /* AFURLResponseSerialization.m */; };
 		18DF8BA81AC3F4B60065B046 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DF8B9F1AC3F4B60065B046 /* AFURLSessionManager.m */; };
 		18E1CCBB1AB92E92007EE156 /* KYWaterWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CCBA1AB92E92007EE156 /* KYWaterWaveView.m */; };
+		18F4C1D21AE0EBAC00B3769C /* MJArgument.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F4C1C01AE0EBAC00B3769C /* MJArgument.m */; };
+		18F4C1D31AE0EBAC00B3769C /* MJIvar.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F4C1C31AE0EBAC00B3769C /* MJIvar.m */; };
+		18F4C1D41AE0EBAC00B3769C /* MJMember.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F4C1C51AE0EBAC00B3769C /* MJMember.m */; };
+		18F4C1D51AE0EBAC00B3769C /* MJMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F4C1C71AE0EBAC00B3769C /* MJMethod.m */; };
+		18F4C1D61AE0EBAC00B3769C /* MJType.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F4C1C91AE0EBAC00B3769C /* MJType.m */; };
+		18F4C1D71AE0EBAC00B3769C /* MJTypeEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F4C1CB1AE0EBAC00B3769C /* MJTypeEncoding.m */; };
+		18F4C1D81AE0EBAC00B3769C /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F4C1CD1AE0EBAC00B3769C /* NSObject+MJCoding.m */; };
+		18F4C1D91AE0EBAC00B3769C /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F4C1CF1AE0EBAC00B3769C /* NSObject+MJKeyValue.m */; };
+		18F4C1DA1AE0EBAC00B3769C /* NSObject+MJMember.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F4C1D11AE0EBAC00B3769C /* NSObject+MJMember.m */; };
+		18F4C1DD1AE0EBD300B3769C /* ISBNResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F4C1DC1AE0EBD300B3769C /* ISBNResult.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +84,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		185B02041AE0B42C0017615B /* book2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = book2.jpg; sourceTree = "<group>"; };
+		18729C661AE8AA520010F99D /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		18729C671AE8AA520010F99D /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		18AAC86F1AEDFD00004ED9EA /* 软件学院－贺弘博毕业论文.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "软件学院－贺弘博毕业论文.docx"; sourceTree = "<group>"; };
 		18D4792A1AA9E08B007DBDE7 /* asdf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = asdf.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18D4792E1AA9E08B007DBDE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18D4792F1AA9E08B007DBDE7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -176,6 +192,28 @@
 		18DF8B9F1AC3F4B60065B046 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
 		18E1CCB91AB92E92007EE156 /* KYWaterWaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYWaterWaveView.h; sourceTree = "<group>"; };
 		18E1CCBA1AB92E92007EE156 /* KYWaterWaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYWaterWaveView.m; sourceTree = "<group>"; };
+		18F4C1BF1AE0EBAC00B3769C /* MJArgument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJArgument.h; sourceTree = "<group>"; };
+		18F4C1C01AE0EBAC00B3769C /* MJArgument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJArgument.m; sourceTree = "<group>"; };
+		18F4C1C11AE0EBAC00B3769C /* MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtension.h; sourceTree = "<group>"; };
+		18F4C1C21AE0EBAC00B3769C /* MJIvar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJIvar.h; sourceTree = "<group>"; };
+		18F4C1C31AE0EBAC00B3769C /* MJIvar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJIvar.m; sourceTree = "<group>"; };
+		18F4C1C41AE0EBAC00B3769C /* MJMember.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJMember.h; sourceTree = "<group>"; };
+		18F4C1C51AE0EBAC00B3769C /* MJMember.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJMember.m; sourceTree = "<group>"; };
+		18F4C1C61AE0EBAC00B3769C /* MJMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJMethod.h; sourceTree = "<group>"; };
+		18F4C1C71AE0EBAC00B3769C /* MJMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJMethod.m; sourceTree = "<group>"; };
+		18F4C1C81AE0EBAC00B3769C /* MJType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJType.h; sourceTree = "<group>"; };
+		18F4C1C91AE0EBAC00B3769C /* MJType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJType.m; sourceTree = "<group>"; };
+		18F4C1CA1AE0EBAC00B3769C /* MJTypeEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJTypeEncoding.h; sourceTree = "<group>"; };
+		18F4C1CB1AE0EBAC00B3769C /* MJTypeEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJTypeEncoding.m; sourceTree = "<group>"; };
+		18F4C1CC1AE0EBAC00B3769C /* NSObject+MJCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJCoding.h"; sourceTree = "<group>"; };
+		18F4C1CD1AE0EBAC00B3769C /* NSObject+MJCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJCoding.m"; sourceTree = "<group>"; };
+		18F4C1CE1AE0EBAC00B3769C /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
+		18F4C1CF1AE0EBAC00B3769C /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
+		18F4C1D01AE0EBAC00B3769C /* NSObject+MJMember.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJMember.h"; sourceTree = "<group>"; };
+		18F4C1D11AE0EBAC00B3769C /* NSObject+MJMember.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJMember.m"; sourceTree = "<group>"; };
+		18F4C1DB1AE0EBD300B3769C /* ISBNResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISBNResult.h; sourceTree = "<group>"; };
+		18F4C1DC1AE0EBD300B3769C /* ISBNResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISBNResult.m; sourceTree = "<group>"; };
+		18F4C1DE1AE0EE8B00B3769C /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -197,6 +235,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18AAC8701AEDFDAE004ED9EA /* MyFile */ = {
+			isa = PBXGroup;
+			children = (
+				18AAC86F1AEDFD00004ED9EA /* 软件学院－贺弘博毕业论文.docx */,
+			);
+			name = MyFile;
+			sourceTree = "<group>";
+		};
 		18D479211AA9E08B007DBDE7 = {
 			isa = PBXGroup;
 			children = (
@@ -219,6 +265,7 @@
 		18D4792C1AA9E08B007DBDE7 /* asdf */ = {
 			isa = PBXGroup;
 			children = (
+				18AAC8701AEDFDAE004ED9EA /* MyFile */,
 				18DAB5161ACD4B4F005357BD /* Lib */,
 				18D7D4DD1ABBD2490065A01A /* testGroup */,
 				18E1CCB91AB92E92007EE156 /* KYWaterWaveView.h */,
@@ -230,6 +277,7 @@
 				18DF8B831AC3DF2B0065B046 /* CollectionViewCell.h */,
 				18DF8B841AC3DF2B0065B046 /* CollectionViewCell.m */,
 				18D479371AA9E08B007DBDE7 /* Main.storyboard */,
+				185B02041AE0B42C0017615B /* book2.jpg */,
 				18D4793A1AA9E08B007DBDE7 /* Images.xcassets */,
 				18D4793C1AA9E08B007DBDE7 /* LaunchScreen.xib */,
 				18D4792D1AA9E08B007DBDE7 /* Supporting Files */,
@@ -242,6 +290,7 @@
 			children = (
 				18D4792E1AA9E08B007DBDE7 /* Info.plist */,
 				18D4792F1AA9E08B007DBDE7 /* main.m */,
+				18F4C1DE1AE0EE8B00B3769C /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -314,6 +363,8 @@
 				18DF8B7E1AC3C8950065B046 /* SortArray.m */,
 				18D7D4DE1ABBD2670065A01A /* lustDownloader.h */,
 				18D7D4DF1ABBD2670065A01A /* lustDownloader.m */,
+				18F4C1DB1AE0EBD300B3769C /* ISBNResult.h */,
+				18F4C1DC1AE0EBD300B3769C /* ISBNResult.m */,
 			);
 			name = testGroup;
 			sourceTree = "<group>";
@@ -377,6 +428,9 @@
 		18DAB5161ACD4B4F005357BD /* Lib */ = {
 			isa = PBXGroup;
 			children = (
+				18729C661AE8AA520010F99D /* UIImage+ImageEffects.h */,
+				18729C671AE8AA520010F99D /* UIImage+ImageEffects.m */,
+				18F4C1BE1AE0EBAC00B3769C /* MJExtension */,
 				18DF8B8C1AC3F4B60065B046 /* AFNetworking */,
 				18D6D7021AC12689000DBFA5 /* SDWebImage */,
 				18D7D4F51ABC04D00065A01A /* SVProgressHUD */,
@@ -409,6 +463,32 @@
 				18DF8B9F1AC3F4B60065B046 /* AFURLSessionManager.m */,
 			);
 			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		18F4C1BE1AE0EBAC00B3769C /* MJExtension */ = {
+			isa = PBXGroup;
+			children = (
+				18F4C1BF1AE0EBAC00B3769C /* MJArgument.h */,
+				18F4C1C01AE0EBAC00B3769C /* MJArgument.m */,
+				18F4C1C11AE0EBAC00B3769C /* MJExtension.h */,
+				18F4C1C21AE0EBAC00B3769C /* MJIvar.h */,
+				18F4C1C31AE0EBAC00B3769C /* MJIvar.m */,
+				18F4C1C41AE0EBAC00B3769C /* MJMember.h */,
+				18F4C1C51AE0EBAC00B3769C /* MJMember.m */,
+				18F4C1C61AE0EBAC00B3769C /* MJMethod.h */,
+				18F4C1C71AE0EBAC00B3769C /* MJMethod.m */,
+				18F4C1C81AE0EBAC00B3769C /* MJType.h */,
+				18F4C1C91AE0EBAC00B3769C /* MJType.m */,
+				18F4C1CA1AE0EBAC00B3769C /* MJTypeEncoding.h */,
+				18F4C1CB1AE0EBAC00B3769C /* MJTypeEncoding.m */,
+				18F4C1CC1AE0EBAC00B3769C /* NSObject+MJCoding.h */,
+				18F4C1CD1AE0EBAC00B3769C /* NSObject+MJCoding.m */,
+				18F4C1CE1AE0EBAC00B3769C /* NSObject+MJKeyValue.h */,
+				18F4C1CF1AE0EBAC00B3769C /* NSObject+MJKeyValue.m */,
+				18F4C1D01AE0EBAC00B3769C /* NSObject+MJMember.h */,
+				18F4C1D11AE0EBAC00B3769C /* NSObject+MJMember.m */,
+			);
+			path = MJExtension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -496,6 +576,7 @@
 				18D4793E1AA9E08B007DBDE7 /* LaunchScreen.xib in Resources */,
 				18D479541AA9E0C2007DBDE7 /* 相册_02_标注.png in Resources */,
 				18D4793B1AA9E08B007DBDE7 /* Images.xcassets in Resources */,
+				185B02051AE0B42C0017615B /* book2.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,9 +595,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				18D7D4F01ABBD2940065A01A /* unzip.c in Sources */,
+				18F4C1D71AE0EBAC00B3769C /* MJTypeEncoding.m in Sources */,
+				18F4C1D91AE0EBAC00B3769C /* NSObject+MJKeyValue.m in Sources */,
+				18F4C1DD1AE0EBD300B3769C /* ISBNResult.m in Sources */,
 				18D6D7301AC12689000DBFA5 /* UIImage+WebP.m in Sources */,
 				18D7D4E01ABBD2670065A01A /* lustDownloader.m in Sources */,
 				18DF8BA61AC3F4B60065B046 /* AFURLRequestSerialization.m in Sources */,
+				18F4C1D41AE0EBAC00B3769C /* MJMember.m in Sources */,
 				18D479361AA9E08B007DBDE7 /* ViewController.m in Sources */,
 				18D7D4F21ABBD2940065A01A /* ZipArchive.mm in Sources */,
 				18D7D4F11ABBD2940065A01A /* zip.c in Sources */,
@@ -525,10 +610,14 @@
 				18D6D72A1AC12689000DBFA5 /* SDWebImageDownloaderOperation.m in Sources */,
 				18E1CCBB1AB92E92007EE156 /* KYWaterWaveView.m in Sources */,
 				18D6D7261AC12689000DBFA5 /* SDImageCache.m in Sources */,
+				18729C681AE8AA520010F99D /* UIImage+ImageEffects.m in Sources */,
 				18D7D4DC1ABBD1D90065A01A /* ViewController_.m in Sources */,
+				18F4C1D21AE0EBAC00B3769C /* MJArgument.m in Sources */,
 				18D479331AA9E08B007DBDE7 /* AppDelegate.m in Sources */,
+				18F4C1D61AE0EBAC00B3769C /* MJType.m in Sources */,
 				18D7D4FE1ABC04D10065A01A /* SVProgressHUD.m in Sources */,
 				18D6D7271AC12689000DBFA5 /* SDWebImageCompat.m in Sources */,
+				18F4C1D81AE0EBAC00B3769C /* NSObject+MJCoding.m in Sources */,
 				18D6D7251AC12689000DBFA5 /* NSData+ImageContentType.m in Sources */,
 				18D479301AA9E08B007DBDE7 /* main.m in Sources */,
 				18D6D72B1AC12689000DBFA5 /* SDWebImageManager.m in Sources */,
@@ -541,6 +630,7 @@
 				18DF8BA81AC3F4B60065B046 /* AFURLSessionManager.m in Sources */,
 				18DF8B8B1AC3DFD20065B046 /* CollectionViewLayout.m in Sources */,
 				18DF8BA51AC3F4B60065B046 /* AFURLConnectionOperation.m in Sources */,
+				18F4C1DA1AE0EBAC00B3769C /* NSObject+MJMember.m in Sources */,
 				18DF8B851AC3DF2B0065B046 /* CollectionViewCell.m in Sources */,
 				18DF8BA31AC3F4B60065B046 /* AFNetworkReachabilityManager.m in Sources */,
 				18D7D4EE1ABBD2940065A01A /* ioapi.c in Sources */,
@@ -554,7 +644,9 @@
 				18D6D7281AC12689000DBFA5 /* SDWebImageDecoder.m in Sources */,
 				18DF8B821AC3DED80065B046 /* MyCollectionViewCollectionViewController.m in Sources */,
 				18D6D7331AC12689000DBFA5 /* UIView+WebCacheOperation.m in Sources */,
+				18F4C1D31AE0EBAC00B3769C /* MJIvar.m in Sources */,
 				18DAB5151ACD4B45005357BD /* CMViewController.m in Sources */,
+				18F4C1D51AE0EBAC00B3769C /* MJMethod.m in Sources */,
 				18DF8BA21AC3F4B60065B046 /* AFHTTPSessionManager.m in Sources */,
 				18DF8BA71AC3F4B60065B046 /* AFURLResponseSerialization.m in Sources */,
 				18D7D4FC1ABC04D00065A01A /* SVIndefiniteAnimatedView.m in Sources */,
@@ -680,6 +772,8 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/apple/hhbTravisTest/asdf/PrefixHeader.pch;
 				INFOPLIST_FILE = asdf/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -702,6 +796,8 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/apple/hhbTravisTest/asdf/PrefixHeader.pch;
 				INFOPLIST_FILE = asdf/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

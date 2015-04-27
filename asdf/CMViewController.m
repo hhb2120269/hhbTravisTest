@@ -21,9 +21,29 @@
 }
 -(IBAction)stop:(id)sender{
     
-    [[UIDevice currentDevice] beginGeneratingDeviceOrientationNotifications];
-    //Adding notifier for orientation changes
-    [[NSNotificationCenter defaultCenter] addObserver:self  selector:@selector(orientationChanged:)    name:UIDeviceOrientationDidChangeNotification  object:nil];
+//    [[UIDevice currentDevice] beginGeneratingDeviceOrientationNotifications];
+//    //Adding notifier for orientation changes
+//    [[NSNotificationCenter defaultCenter] addObserver:self  selector:@selector(orientationChanged:)    name:UIDeviceOrientationDidChangeNotification  object:nil];
+    
+    NSArray *array = [NSArray arrayWithObjects:
+                      @"https://api.douban.com/v2/book/isbn/9787229030933",
+                      @"https://api.douban.com/v2/book/isbn/9787108023803",
+                      @"https://api.douban.com/v2/book/isbn/9787549529322",
+                      @"https://api.douban.com/v2/book/isbn/9787539951058",
+                      @"https://api.douban.com/v2/book/isbn/9787508646671",
+                      @"https://api.douban.com/v2/book/isbn/9787508646657",
+                      @"https://api.douban.com/v2/book/isbn/9787530209479", nil];
+    
+    int i = 0;
+    for (NSString *str  in array) {
+        NSURL *url = [NSURL URLWithString:str];
+        
+        NSMutableURLRequest *request = [[NSMutableURLRequest alloc]initWithURL:url cachePolicy:NSURLRequestUseProtocolCachePolicy timeoutInterval:10];
+        
+        
+        i++;
+    }
+    
 
 }
 - (void)orientationChanged:(NSNotification *)notification{
